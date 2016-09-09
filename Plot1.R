@@ -3,7 +3,6 @@
 
 #please set your working directory to the folder on your computer that contains the household_power_consumption.txt file. 
 #for me this is: setwd("C:/Users/Kimberley/Documents/DATASCIENCE/Module4-ExploratoryDataAnalysis/AssignmentWeek1/ExData_Plotting1")
-#you can also find the household_power_consumption.txt file I used on my git hub: https://github.com/knwallaart/ExData_Plotting1
 
 #download the necessary rows of the dataframe and the header for colnames
 df <- read.table("household_power_consumption.txt",header = TRUE, sep = ";", skip=66636,nrows=2880)
